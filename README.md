@@ -8,10 +8,15 @@
 We analyzed write-off data across different business segments (fuel customers, universal customers, company card, etc.) to identify key cost-reduction strategies, revenue opportunities, and customer retention insights.  
 
 **Key Findings:**  
-- "Top factors affecting customer performance: `WO_AMOUNT`, `days_past_due`, `Segment_Score`, `NSF_AMT`, `CREDIT_LIMIT`"
+**Top factors affecting customer performance:**
+- `WO_AMOUNT`
+-  `days_past_due`
+-  `Segment_Score`
+-   `NSF_AMT`
+-   `CREDIT_LIMIT`
 
 
-- Best-performing customers have:  
+  **Best-performing customers have:  **
   - `days_past_due = 0`  
   - `NSF_AMT = 5`  
   - `WO_AMOUNT = 60`  
