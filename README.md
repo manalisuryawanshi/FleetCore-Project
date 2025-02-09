@@ -7,23 +7,26 @@
 ### **1. Write-Off Saving Analysis**  
 We analyzed write-off data across different business segments (fuel customers, universal customers, company card, etc.) to identify key cost-reduction strategies, revenue opportunities, and customer retention insights.  
 
-**Key Findings:**  
-**Top factors affecting customer performance:**
-- `WO_AMOUNT`
--  `days_past_due`
--  `Segment_Score`
--   `NSF_AMT`
--   `CREDIT_LIMIT`
+### **Key Findings:**  
 
+#### **Top Factors Affecting Customer Performance:**  
+- `WO_AMOUNT`  
+- `days_past_due`  
+- `Segment_Score`  
+- `NSF_AMT`  
+- `CREDIT_LIMIT`  
 
-  **Best-performing customers have:  **
-  - `days_past_due = 0`  
-  - `NSF_AMT = 5`  
-  - `WO_AMOUNT = 60`  
-  - `CREDIT_LIMIT > 5K`  
-- **Model Used:** Multi-Variable Linear Regression in **R**  
+#### **Best-Performing Customers Have:**  
+- `days_past_due = 0`  
+- `NSF_AMT = 5`  
+- `WO_AMOUNT = 60`  
+- `CREDIT_LIMIT > 5K`  
+
+### **Model Used:**  
+Multi-Variable Linear Regression in **R**  
 
 ---
+
 
 ### **2. Attrition Analysis**  
 We examined changes in spending, gallons pumped, and revenue across different business segments.  
